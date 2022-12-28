@@ -34,18 +34,18 @@
         height: 100px;
         background-color: #141f40;
       }
-      
+
       .left{
           width: 150px;
           height: 250px;
           background-color: #80bfa8;
-          
+          float: none;
       }
       .right{
           width: 150px;
           height: 250px;
           background-color: #8c2727;
-          
+          float: none;
       }
       .footer{
           width: 150px;
