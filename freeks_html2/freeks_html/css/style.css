@@ -1,0 +1,130 @@
+body {
+    /* 埋め込みたい画像のパス */
+    background-image: url(../img/main.jpg);
+    /* 画面いっぱいに広げるため */
+    background-size: cover;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+
+    /* スクロールしてもヘッダーがついてくるように */
+    position: fixed; 
+    /* paddingで広がった部分も考慮するため(←ここはちょっと難しい内容なので、box-sizingで調べてみてください!) */
+    box-sizing: border-box;
+    /* ヘッダーの横幅に空白をつける */
+    padding: 0 50px;
+    /* 後で画面全体が青っぽくなるので、ヘッダー部分だけ白くしておく */
+    background-color: white;
+    /* ヘッダーの下に薄い影を付けて立体的に見せる */
+    box-shadow: 3px 3px rgba(0,0,0,.075);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.container {
+    font-weight: bold;
+}
+/* 今後書いていく見出しは、ここで一括して全て中央揃えにしておく */
+.container h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px 0;
+  }
+  
+  .top_img {
+    width: 100%;
+    padding-top: 80px;
+  }
+  section {
+    margin-bottom: 60px;
+}
+  
+  /* 横並びにする */
+  .contents {
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .contents img {
+      /* imgタグはインライン要素なので、marginを適用させるにはブロック要素にする必要がある */
+    display: block;
+    margin: 30px auto;
+    width: 45%;
+  }
+  
+  /* 一つ分を33%の幅にしたい。親要素にflex-wrapがついているので、100％を超えたら折り返します（4つ目が並ぶと100%を超えます） */
+  .item {
+    width: 33%;
+  }
+  /* 一つ33%のitemの大きさを100%として、その大きさの60%をテキストの幅としてとりたい */
+  .item p {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .item:hover {
+    box-shadow: 0 0 5px gray;
+}
+.movies {
+    display: flex;
+    justify-content: space-between;
+}
+
+.movies p {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.movie_section {
+    padding: 10px 30px;
+    background-color: rgb(69, 63, 63);
+    color: white;
+    height: 400px;
+}
+.lang {
+    display: flex;
+    /* 今回追加分 */
+    margin-bottom: 60px;
+}
+
+.lang:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.desc {
+    width: 80%;
+    margin: 0 auto;
+}
+.lang_desc h1 {
+    text-align: left;
+}
+footer {
+    background-color: white;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 1100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+

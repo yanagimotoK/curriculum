@@ -1,0 +1,136 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header_black{
+    background-color: #141f40;
+    width: 400px;
+    height: 100px;
+}
+.left_green{
+    background-color: #80bfa8;
+    width: 150px;
+    height: 250px;
+    /*float: left;*/
+}
+.right_box{
+
+}
+.right{
+    /*float: left;*/
+}
+.right_box_left{
+    /*float: right;*/
+}
+.yellow{
+    background-color: #dbd400;
+    width: 150px;
+    height: 50px;
+}
+.blue{
+    background-color: #0093b7;
+    width: 150px;
+    height: 100px;
+}
+.right_box_right_orange{
+    background-color: #ff9e6b;
+    width: 100px;
+    height: 150px;
+    /*float: right;*/
+}
+.right_red{
+    background-color: #8c2727;
+    width: 250px;
+    height: 100px;
+}
+.footer_brown{
+    background-color: #d98d30;
+    width: 400px;
+    height: 100px;
+}
+
+/*
+.a{
+float: left;
+}
+.red{
+background-color: red;
+width: 150px;
+height: 50px;
+}
+.blue{
+    background-color: blue;
+    width: 150px;
+    height: 100px;
+}
+.green{
+background-color: green;
+width: 100px;
+height: 150px;
+float: left;
+}
+.black{
+background-color: black;
+width: 250px;
+height: 100px;
+}
+*/
+*{
+    box-sizing: border-box;
+  }
+.header-blue{
+background-color: #141f40;
+width: 400px;
+height: 100px;
+position: relative;
+}
+.header-min{
+background-color: white;
+width: 160px;
+height: 60px;
+justify-content: center;
+display: flex;
+padding: 10px 0 0 0;
+position: absolute;
+top: 20%;
+right: 10%;
+}
+.pink{
+background-color: #a9004b;
+width: 40px;
+height: 40px;
+}
+.pink:nth-of-type(2){
+    margin: 0 10px;
+}
+.content-middle{
+display: flex;
+}
+.left-green{
+background-color: #80bfa8;
+width: 150px;
+height: 250px;
+}
+.right-red{
+background-color: #8c2727;
+width: 250px;
+height: 250px;
+}
+.right-inner{
+padding: 40px 60px 0 40px;
+}
+.right-inner-orage{
+    border: 5px solid white;
+    width: 150px;
+    height: 50px;
+    background-color: #ff863f;
+}
+.right-inner-orage:nth-last-of-type(2){
+    margin: 10px 0;
+}
+.footer-brown{
+background-color: #d98d30;
+width: 400px;
+height: 100px;
+}
