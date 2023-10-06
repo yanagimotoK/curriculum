@@ -1,19 +1,4 @@
 <?php
-$my_name =$_GET['my_name'];
-$my_mail =$_GET['my_mail'];
-$password = $_GET['password'];
-$sex = $_GET['sex'];
-$age = $_GET['age'];
-?>
-
-
-<p>私の名前は、<?php echo $my_name; ?></p>
-<p>メールアドレスは、<?php echo $my_mail; ?></p>
-<p>私のパスワードは、<?php echo $password; ?></p>
-<p>性別は<?php echo $sex; ?>です。</p>
-<p>年齢は<?php echo $age; ?>歳です。</p>
-
-<?php
 date_default_timezone_set('Asia/Tokyo');
 
   //②フォームからのデータを受け取ります

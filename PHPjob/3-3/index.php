@@ -17,27 +17,6 @@
     <input type="submit" value="送信">
   </form>
 
-  <br>
-  <form action="result.php" method="get">
-    名前：<input type="text" name="my_name" />
-    <br>
-    メールアドレス：<input type="text" name="my_mail" />
-    <br>
-    パスワード：<input type="password" name="password" />
-    <br>
-    性別：
-        <input type="radio" name="sex" value="男性">男性
-        <input type="radio" name="sex" value="女性">女性
-    <br>
-    年齢：
-        <select name="age">
-          <option value="21">21</option>
-          <option value="22">22</option>
-          <option value="23">23</option>
-          <option value="24">24</option>
-        </select>
-    <br>
-    <input type="submit" value="送信" />
-  </form>
+
 </body>
 </html>
