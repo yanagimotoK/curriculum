@@ -1,0 +1,32 @@
+body{
+    background-color: gray;
+}
+
+.first-page-inner{
+    text-align: center;
+}
+.first-page-inner h1{
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+.secound-page-inner{
+    text-align: center;
+}
+
+.secound-page-inner h2, p{
+    color: white;
+}
+
+.question{
+    display: flex;
+    justify-content: center;
+}
+
+.third-page-inner{
+    text-align: center;
+}
+
+.third-page-inner p{
+    color: white;
+}
